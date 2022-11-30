@@ -20,9 +20,11 @@ box1.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result pb-3">YOU WIN</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pb-3">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
@@ -32,9 +34,11 @@ box2.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU WIN</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
@@ -44,9 +48,11 @@ box3.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU WIN</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
@@ -56,9 +62,11 @@ box4.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU WIN</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
@@ -68,9 +76,11 @@ box5.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU WIN</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
@@ -80,13 +90,23 @@ box6.addEventListener("click", function(){
     var clickedColor = "white";
     if(clickedColor===a)
     {
-        document.getElementById('result').innerHTML = '<h1 id="result pt-4>YOU WIN</h1>'
+        document.getElementById('result').innerHTML = '<h1 id="result pt-4>YOU WIN</h1><br>';
+        document.getElementById('wincolor').innerHTML = a;
+        
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result pt-4">YOU LOSE</h1>'
+        document.getElementById('wincolor').innerHTML = a;
     }
     
 })
+
+
     
    
+}
+
+function resetGame(){
+    window.location.reload();   
+    
 }
