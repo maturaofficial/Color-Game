@@ -100,10 +100,7 @@ box6.addEventListener("click", function(){
         document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
-})
-
-
-    
+}) 
    
 }
 
