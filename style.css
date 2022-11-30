@@ -5,16 +5,6 @@ body {
     font-weight: normal;
     text-transform: uppercase;
   }
-
-  .btn{
-    
-        margin: 0;
-        position: absolute;
-        top: 90%;
-        left: 47%;
-        
-      
-  }
   
   .box {
     width: 180px;
@@ -78,8 +68,9 @@ body {
   
   #container {
     max-width: 600px;
-	margin: 20px auto;
+	margin: 2px auto;
     padding-top: 1%;
+    text-align: center;  
     
   }
 
@@ -88,6 +79,7 @@ body {
     padding-top: 55%;
 
   }
+  
 
 
   
