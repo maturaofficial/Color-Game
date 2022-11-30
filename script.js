@@ -20,11 +20,11 @@ box1.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
 })
@@ -34,11 +34,11 @@ box2.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
 })
@@ -48,11 +48,11 @@ box3.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
 })
@@ -62,12 +62,13 @@ box4.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
+    
     
 })
 
@@ -76,11 +77,11 @@ box5.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
 })
@@ -91,12 +92,12 @@ box6.addEventListener("click", function(){
     if(clickedColor===a)
     {
         document.getElementById('result').innerHTML = '<h1 id="result">YOU WIN</h1>';
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
         
     }
     else{
         document.getElementById('result').innerHTML = '<h1 id="result">YOU LOSE</h1>'
-        document.getElementById('wincolor').innerHTML = a;
+        document.getElementById('wincolor').innerHTML = 'Result: '+a;
     }
     
 })
