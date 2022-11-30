@@ -1,3 +1,6 @@
+//  ColorGame
+ 
+ 
  window.onload =function colorGame(){
    
     function randomColor(){
